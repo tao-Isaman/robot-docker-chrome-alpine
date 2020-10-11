@@ -7,9 +7,9 @@ Suite Teardown   Close All Browsers
 ${headless}  n
 
 *** Test Cases ***
-Open Untrusted Site
-    Go To  https://untrusted-root.badssl.com/
-    Page Should Contain  The certificate for this site is signed using an untrusted root.
+Open Reacc Web
+    Go To  https://reacc.io/
+    Page Should Contain  This website uses cookies
 
 *** Keywords ***
 Open Chrome With Blank Page
